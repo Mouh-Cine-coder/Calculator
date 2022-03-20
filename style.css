@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Pacifico&family=Poppins:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #0f2027; 
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+}
+.structer {
+    padding: 20px;
+    -webkit-box-shadow: -13px 10px 10px 1px #2c5364; 
+    box-shadow: -13px 10px 10px 1px #2c5364;
+    border-radius: 5px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+#display{
+    width: 245px;
+    height: 50px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.buttons ul {
+    list-style: none;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px; 
+    column-gap: 15px;
+    row-gap: 20px;
+}
+
+.button {
+    padding: 20px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    background: #0f2027; 
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+}
+.add, .sub, .mul, .div, .result {
+    color: crimson;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
